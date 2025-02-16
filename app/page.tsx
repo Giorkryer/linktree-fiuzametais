@@ -1,6 +1,6 @@
 import Image from "next/image";
 import data from '../data.json';
-import { FaTwitter, FaYoutube,  } from 'react-icons/fa';
+import { FaYoutube,  } from 'react-icons/fa';
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { AiFillTikTok } from "react-icons/ai";
 
