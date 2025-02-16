@@ -4,22 +4,30 @@ import { FaYoutube,  } from 'react-icons/fa';
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { AiFillTikTok } from "react-icons/ai";
 
-function LinkCard({ href, title, image}: { href: string; title: string; image?: string } ){
+function LinkCard({ href, title, image }: { href: string; title: string; image?: string }) {
   return (
-    <a href={href} className="flex items-center p-1 w-full rounded-md hover:scale-[1.02] transition-all border bg-black mb-3 gradient-bg max-w-3xl border-yellow-400">
-      <div className="flex text-center w-full">
-        <div className="w-10 h-10">
-        {image && (
-          <Image
-          className="rounded-md"
-            alt={title}
-            src={image}
-            width={45}
-            height={45}
-          />
-        )}
+    <a
+      href={href}
+      className="flex items-center p-1 w-full rounded-md hover:scale-[1.02] transition-all border bg-black mb-3 gradient-bg max-w-3xl border-yellow-400"
+    >
+      <div className="flex items-center w-full gap-4">
+        {/* Container do ícone - Aumentado e com flex-shrink-0 */}
+        <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center">
+          {image && (
+            <Image
+              className="rounded-md object-cover w-full h-full"
+              alt={title}
+              src={image}
+              width={45}
+              height={45}
+              quality={100}
+              priority
+            />
+          )}
         </div>
-        <h2 className="flex justify-center items-center pl-10 font-medium w-full text-yellow-400 -ml-10">
+
+        {/* Título */}
+        <h2 className="font-medium text-yellow-400 flex-grow text-center text-lg">
           {title}
         </h2>
       </div>
