@@ -1,0 +1,59 @@
+{
+    "name": "Fiuza Metais",
+    "subtitle":"Mentor de Sucateiros",
+    "avatar": "https://bio.linkcdn.cc/upload/2024080818/1723140247815.jpeg",
+    "links":[
+        {
+            
+            "title":"Mentoria Individual (Responda o questionário)",
+            "href":"https://form.respondi.app/mdzhPm65",
+            "image":"https://media4.giphy.com/media/IgpsRT6FdinjrDWzNu/giphy.gif?cid=490683395r7vwkjapx9f4k1buj1xikira8dwh0f25l86vmn5&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+        },
+        {
+            
+            "title":"Nosso Contato (Whatsapp)",
+            "href":"https://api.whatsapp.com/send/?phone=5585991505505&text&type=phone_number&app_absent=0",
+            "image":"https://bio.linkcdn.cc/bio/links/icons/social/whatsapp.png"
+        },
+        {
+            
+            "title":"Grupo de Whatsapp (Rede de Sucateiros)",
+            "href":"https://chat.whatsapp.com/KL3Xe9KrSirKjUsUgli2Iu",
+            "image":"https://bio.linkcdn.cc/bio/links/icons/other/other10.png"
+        },
+        {
+            
+            "title":"Clube da Sucata (Curso de Finanças + Encontro Mensal + Informações Privilegiadas)",
+            "href":"https://sun.eduzz.com/2446984",
+            "image":"https://bio.linkcdn.cc/bio/links/icons/other/service.png"
+        },
+        {
+            
+            "title":"Controle Financeiro (Planilha)",
+            "href":"https://sun.eduzz.com/2458181",
+            "image":"https://bio.linkcdn.cc/bio/links/icons/social/dinheiro.png"
+        },
+        {
+            
+            "title":"Minha História",
+            "href":"https://www.youtube.com/watch?v=wXUnadUlI_0",
+            "image":"https://bio.linkcdn.cc/bio/links/icons/social/podcast.png"
+        }
+
+    ],
+    "socials":[
+        {
+            "title": "Tiktok",
+            "href": "https://www.tiktok.com/@fiuza.metais.reci"
+        },
+        {
+            "title":"Instagram",
+            "href":"https://www.instagram.com/giordanny_maciel/"
+        },
+        {
+            "title":"YouTube",
+            "href":"https://www.youtube.com/@fiuzametais"
+        }
+    ]
+}
+
