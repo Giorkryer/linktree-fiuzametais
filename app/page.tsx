@@ -1,6 +1,6 @@
 import Image from "next/image";
 import data from '../data.json';
-import { FaYoutube,  } from 'react-icons/fa';
+import { FaTwitter, FaYoutube,  } from 'react-icons/fa';
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { AiFillTikTok } from "react-icons/ai";
 
@@ -44,11 +44,17 @@ function SocialIcons() {
           href={social.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-yellow-400 hover:text-yellow-300 hover:scale-105 transition-colors"
+          className="hover:scale-105 transition-transform"
         >
-          {social.href.includes('tiktok') && <AiFillTikTok className="w-10 h-10" />}
-          {social.href.includes('instagram') && <BiLogoInstagramAlt className="w-10 h-10" />}
-          {social.href.includes('youtube') && <FaYoutube className="w-10 h-10" />}
+          {social.href.includes('tiktok') && (
+            <AiFillTikTok className="w-10 h-10 text-[#ffffff]" /> // Preto do TikTok
+          )}
+          {social.href.includes('instagram') && (
+            <BiLogoInstagramAlt className="w-10 h-10 text-[#FFD600]" /> // Gradiente do Instagram
+          )}
+          {social.href.includes('youtube') && (
+            <FaYoutube className="w-10 h-10 text-[#FF0000]" /> // Vermelho do YouTube 
+          )}
         </a>
       ))}
     </div>
