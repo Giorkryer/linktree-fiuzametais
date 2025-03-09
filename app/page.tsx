@@ -11,7 +11,6 @@ function LinkCard({ href, title, image }: { href: string; title: string; image?:
       className="flex items-center p-1 w-full rounded-md hover:scale-[1.02] transition-all border bg-black mb-3 gradient-bg max-w-3xl border-yellow-400"
     >
       <div className="flex items-center w-full gap-4">
-        {/* Container do ícone - Aumentado e com flex-shrink-0 */}
         <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center">
           {image && (
             <Image
@@ -26,7 +25,6 @@ function LinkCard({ href, title, image }: { href: string; title: string; image?:
           )}
         </div>
 
-        {/* Título */}
         <h2 className="font-medium text-yellow-400 flex-grow text-center text-lg">
           {title}
         </h2>
@@ -74,12 +72,12 @@ export default function Home() {
       <h1 className="font-bold mt-4 text-xl  text-yellow-400 ">{data.name}</h1>
       <h2 className="mb-10 font-semibold text-xl text-yellow-400">{data.subtitle}</h2>
       
-            {/* Renderiza os links */}
+
             {data.links.map((link) => (
         <LinkCard key={link.href} {...link} />
       ))}
 
-      {/* Ícones sociais separados */}
+
       <SocialIcons />
 
     </div>
